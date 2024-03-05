@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: black;
+}
+
+.buttonclass {
+  position: absolute;
+  right: 1vh;
+  top: 0;
+}
+
+.buttonstyle {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: rem;
+  margin: 2.5vh;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.Login {
+  border-radius: 20px;
+  width: 50px;
+  background-color: white;
+  border: none;
+  color: black;
+  width: 70px;
+  font-weight: 700;
+  height: 35px;
+  margin: 10px;
+}
+
+.herologo {
+  height: 180px;
+}
+
+.Heropage {
+  position: absolute;
+  top: 180px;
+  margin-left: 60px;
+}
+
+.Nolanbutton {
+  padding: 15px;
+  background-color: rgb(60, 60, 255);
+  border-radius: 50px;
+  border: none;
+  color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 32px;
+  font-weight: 800;
+}
+
+.loginbutton {
+  padding: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border: none;
+  border-radius: 40px;
+  font-weight: 800;
+  margin-left: 20px;
+
+}
+
+.ri-sparkling-line {
+  height: 100px;
+}
+
+.bio {
+  background-color: #2b2d33;
+  height: 58vh;
+  width: 70vh;
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: aliceblue;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.bgColor {
+  background-color: black;
+}

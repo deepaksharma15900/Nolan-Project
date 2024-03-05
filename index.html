@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+  <div id="header">
+    <div>
+      <img src="images/hero-img-landing-main copy.jpeg" class="img-fluid" alt="">
+      <div style="height: 10vh; background-color: transparent ; position: fixed;top: 0;width: 100%;z-index: 1;">
+        <a href="index.html"><img style="height:4.4vh;margin-top: 2vh;margin-left: 3vh;" src="images/hero_logo.png"
+            alt=""></a>
+        <div class="buttonclass">
+          <a href="AboutUs.html"><button class="buttonstyle">About Us</button></a>
+          <a href="pricing.html"><button class="buttonstyle">Pricing</button></a>
+          <a href="ForStudios.html"><button class="buttonstyle">For Studios</button></a>
+          <a href="Features.html"><button class="buttonstyle">Features</button></a>
+
+          <!-- Button trigger modal -->
+          <button type="button" class="buttonstyle " data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Create Script
+          </button>
+
+          <!-- Modal -->
+          <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Create a new script</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <p>Select the format you want to write a script for: </p>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                      <h4>Feature Film</h4>
+                      <p>Begin crafting your feature film screenplay with the assistance of Co-Pilot's power.</p>
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                    <label class="form-check-label" for="flexRadioDefault2">
+                      <h4>Video Short</h4>
+                      <p>Take your video shorts to new heights by utilizing AI to craft your scripts in screenplay
+                        format.</p>
+                    </label>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Next</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="buttonstyle">Blog</button>
+          <button class="Login">Log in</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="Heropage">
+    <img class="herologo" src="images/hero_logo.png" alt="">
+    <h1 style="margin-top: 10px;color: white;font-size: 3rem;">Film Industry Service Hub</h1>
+    <p style="font-size: 22px;margin-top: 20px;color: white;">Helping bring the next masterpiece to the big screens.</p>
+    <button class="Nolanbutton"><i style="margin-right: 10px;" class="ri-pencil-fill"></i>Get NolanAI Free</button>
+    <button class="loginbutton"><i style="margin-right: 10px;" class="ri-contract-right-fill"></i>Login</button>
+  </div>
+  <div style="display: flex;">
+    <div
+      style="background-color: rgb(24, 24, 24);width:30%; position: absolute; top: 680px;left: 35px; border-radius:15px;height: 25vh;"
+      class="container-fluid">
+      <h1 style="color: aliceblue;margin-top: 20px;">Editor With AI-Copilot</h1>
+      <p style="color: aliceblue;margin-top: 10px;">Enhance your screenwriting experience with AI Copilot,
+        which
+        suggests ideas for you</p>
+    </div>
+    <div
+      style="background-color: rgb(24, 24, 24);width:30%; position: absolute; top: 680px;left: 530px; border-radius:15px;height: 25vh;"
+      class="container-fluid">
+      <h1 style="color: aliceblue;margin-top: 20px;">Automatic Script Breakdown</h1>
+      <p style="color: aliceblue;margin-top: 10px;">Script Breakdown will be available in a single click</p>
+    </div>
+    <div
+      style="background-color: rgb(24, 24, 24);width:30%; position: absolute; top: 680px;right: 35px; border-radius:15px;height: 25vh;"
+      class="container-fluid">
+      <h1 style="color: aliceblue;margin-top: 20px;">AI Storyboard</h1>
+      <p style="color: aliceblue;margin-top: 10px;">Automatically create shots by analyzing each scene within seconds.
+        Generate shot images for inspiration</p>
+    </div>
+  </div>
+
+  <div style="display: flex;background-color:black ;">
+    <div>
+      <img style="height: 50vh;width: 50vh;margin-top: 130px;margin-left: 70px;" src="images/shield.jpeg" alt="">
+    </div>
+    <div style="margin-top: 180px;margin-left: 30px;color: aliceblue;">
+      <h1>Secure</h1>
+      <h2>Don’t worry, your data is secure and encrypted with NOLAN</h2>
+      <p style="width: 80%;">We take your privacy and the ownership of your work very seriously. We respect your
+        creative content and have
+        no rights over it. We do not use your work for training our models or for any other purposes without your
+        explicit consent. Your scripts and content remain your intellectual property. So, when you create/upload or edit
+        content using our software, you retain full ownership of the intellectual property. We do not claim any rights
+        to your scripts or any other content you produce. Your creative work is yours and yours alone</p>
+    </div>
+  </div>
+  <div style="background-color: black;">
+    <img style="height: 60vh;width: 100%;margin-top: 20px;opacity: 0.4;"
+      src="https://images.unsplash.com/photo-1471341971476-ae15ff5dd4ea?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+    <div style="position: absolute;top: 1320px;margin-left: 40px">
+      <h2 style="color: aliceblue;">Free Script Writing Software</h2>
+      <h1 style="color: aliceblue;">AND MORE</h1>
+      <p style="color: aliceblue;width: 50%;">NolanAI isn't just a screenwriting tool, it's a filmmaker's dream studio.
+        From
+        crafting your script with AI
+        assistance to seamlessly pre-producing your masterpiece, all within one intuitive platform, NolanAI empowers you
+        to tell your story without losing your creative spark.
+        Imagine ditching siloed tools and having everything at your fingertips, from storyboards to shot lists, all
+        fueled by AI smarts and user-friendly design. That's the NolanAI advantage - streamlined storytelling, from pen
+        to production, with your unique voice always in the director's chair.</p>
+      <button class="Nolanbutton">Explore our premium plan <i class="ri-arrow-right-line"></i></button>
+    </div>
+    <div>
+      <img style="position:absolute;top: 1300px;right: 50px;" src="images/dashboardBanner.jpeg" alt="">
+    </div>
+  </div>
+  <div style="background-color: black;display: flex;flex-direction: column;padding: 50px;">
+    <h1 style="color: aliceblue;text-align: center;">Testimonials</h1>
+    <h4 style="color: aliceblue;text-align: center;">What Our Customers Say</h4>
+    <div style="margin-top: 20px;" class="bio">
+      <img style="height: 70px;width: 70px;border-radius: 100px;" src="images/mike_wech.jpeg" alt="">
+      <h1>Mike Wech</h1>
+      <h6>PRODUCER • EDITOR • WRITER</h6>
+      <p>NolanAI has the ability to be a game changer for producers. What used to take days could soon take hours and
+        the technology is constantly improving. I was happy that the developers were quick to address the issues and
+        eager to learn how the program can become more efficient for producers. The incorporated new features that we
+        asked for and are eager to help filmmakers streamline production. Highly recommended.</p>
+      <img src="images/imdb.png" alt="">
+    </div>
+    <div style="background-color: black;padding-top: 20px;text-align: center;color: aliceblue;padding-top: 5rem;">
+      <h1>Meet Your Fellow Creators at NolanAI</h1>
+      <h5>Fueling the Creative Fire: Where Thousands Shape Their Stories</h5>
+    </div>
+  </div>
+  <div>
+    <div style="background-color: black;height: 200px;display: flex;justify-content: space-around;">
+      <div style="display: flex;flex-direction: column;align-items: center; color: aliceblue;">
+        <i style="font-size: 2.5rem;" class="ri-user-fill"></i>
+        <i style="font-size: 5rem;color: orangered;" class="ri-add-line">10000</i>
+        <h5 style="font-size: 2rem;">Registered users</h5>
+      </div>
+      <div style="display: flex;flex-direction: column;align-items: center; color: aliceblue;">
+        <i style="font-size: 2.5rem;" class="ri-id-card-fill"></i>
+        <i style="font-size: 5rem;color: orangered;" class="ri-add-line">3000</i>
+        <h5 style="font-size: 2rem;">Storyboards created</h5>
+      </div>
+      <div style="display: flex;flex-direction: column;align-items: center; color: aliceblue;">
+        <i style="font-size: 2.5rem;" class="ri-file-text-fill"></i>
+        <i style="font-size: 5rem;color: orangered;" class="ri-add-line">18000</i>
+        <h5 style="font-size: 2rem;">Scripts written</h5>
+      </div>
+    </div>
+
+    <div style="background-color: black;padding-top: 8rem;color: aliceblue;text-align: center;padding-bottom: 2rem;">
+      <h1>FEATURES</h1>
+      <h5>Explore what the NolanAI platform can do</h5>
+    </div>
+
+    <div style="background-color: black;height: 200px;display: flex;color: aliceblue;padding-top: 5rem;">
+      <div style="margin-top: 100px;">
+        <h1 style="width: 95%;text-align: end;">THE INDUSTRY STANDARD SCRIPT WRITING SOFTWARE
+        </h1>
+        <p style="width: 95%;text-align: end;">Nolan provides a user-friendly interface, advanced formatting options,
+          and helpful
+          features such as character
+          and scene breakdowns, revision tracking, and collaboration tools.With its powerful tools and intuitive design.
+        </p>
+      </div>
+      <div style=" align-items: center;justify-content: flex-start;margin-right: 5rem;">
+        <img src="images/1.jpeg" alt="">
+      </div>
+    </div>
+
+    <div
+      style="background-color: black;height: 200px;display: flex;color: aliceblue;padding-top: 5rem;padding-top: 24rem;">
+      <div style=" align-items: center;justify-content: flex-start;padding-left: 5rem;">
+        <img src="images/plotHole.jpeg" alt="">
+      </div>
+      <div style="margin-top: 100px;padding-left: 2rem;">
+        <h1 style="width: 95%;text-align: start;">PLOT HOLE DETECTION REPORT
+        </h1>
+        <p style="width: 95%;text-align: start;">With the Plot Hole Detection Report, you can ensure the consistency and
+          quality of your story, enhancing the overall engagement of your content. This detailed report provides
+          actionable insights and suggestions for resolving identified issues, allowing you to fine-tune your narrative
+          and captivate your audience with a more polished and immersive storytelling experience. Whether you're
+          crafting a screenplay, novel, or any other form of narrative, this feature is your indispensable companion in
+          the pursuit of storytelling excellence.
+        </p>
+      </div>
+    </div>
+
+    <div style="background-color: black;height: 200px;display: flex;color: aliceblue;padding-top: 32rem;">
+      <div style="margin-top: 100px;">
+        <h1 style="width: 95%;text-align: end;">ASK NOLAN FOR SUGGESTION
+        </h1>
+        <p style="width: 95%;text-align: end;">To help you create high-quality story, Nolan offers a powerful editing
+          feature. With Ask Nolan, you can easily enhance the quality of your text by highlighting the selected
+          text,correcting any spelling and grammar errors, and adjusting the tone of the paragraph as necessary.This
+          feature provides you with the flexibility to customize your text and make it more engaging and effective.
+        </p>
+      </div>
+      <div style=" align-items: center;justify-content: flex-start;margin-right: 5rem;">
+        <img src="images/3.jpeg" alt="">
+      </div>
+    </div>
+
+    <div
+      style="background-color: black;height: 200px;display: flex;color: aliceblue;padding-top: 5rem;padding-top: 32rem;">
+      <div style=" align-items: center;justify-content: flex-start;padding-left: 5rem;">
+        <img src="images/4.jpeg" alt="">
+      </div>
+      <div style="margin-top: 100px;padding-left: 2rem;">
+        <h1 style="width: 95%;text-align: start;">CHANGE YOUR CHARACTER ACCENT
+        </h1>
+        <p style="width: 95%;text-align: start;">Personalize your character and make it truly unique. "Change Accent"
+          allows you to change your character's accent, making it sound more distinct and authentic. Whether you want to
+          add a touch of personality to your character or create a character that stands out, this feature provides you
+          with the flexibility to customize your character's accent to match your preferences. With this feature, you
+          can create a character that truly represents you and brings your story to life.
+        </p>
+      </div>
+    </div>
+
+    <div style="background-color: black;height: 200px;display: flex;color: aliceblue;padding-top: 32rem;">
+      <div style="margin-top: 100px;">
+        <h1 style="width: 95%;text-align: end;">SCRIPT SMART
+        </h1>
+        <p style="width: 95%;text-align: end;">Script Smart uses advanced algorithms to automatically format your text
+          into a screenplay format. With Script Smart, you can save time and focus on writing by letting the software
+          handle the formatting for you. This feature also provides suggestions and corrections to help ensure that your
+          screenplay adheres toindustry standards and is formatted correctly.
+        </p>
+      </div>
+      <div style=" align-items: center;justify-content: flex-start;margin-right: 5rem;">
+        <img src="images/5.jpeg" alt="">
+      </div>
+    </div>
+
+    <div
+      style="background-color: black;height: 200px;display: flex;color: aliceblue;padding-top: 5rem;padding-top: 32rem;">
+      <div style=" align-items: center;justify-content: flex-start;padding-left: 5rem;">
+        <img src="images/scriptBreakdown.jpeg" alt="">
+      </div>
+      <div style="margin-top: 100px;padding-left: 2rem;">
+        <h1 style="width: 95%;text-align: start;">BREAK SMART
+        </h1>
+        <p style="width: 95%;text-align: start;">The Automatic Screenplay Breakdown (Break Smart) is a time-saving
+          solution that simplifies the process of deconstructing a screenplay. It automatically dissects your script
+          into key elements like scenes, characters, and locations, providing a clear and organized overview of your
+          story's structure.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div style="padding-top: 30rem;background-color: black;display: flex;align-items: center;justify-content: center;">
+    <button class="Nolanbutton"><i class="ri-compass-line">Explore All Features</i></button>
+  </div>
+
+  <div
+    style="background-color: black;display: flex;align-items: center;justify-content: space-between;padding-top: 5rem;color: aliceblue;">
+    <img style="height: 2rem;padding-left: 3rem;" src="images/hero_logo.png" alt="">
+    <div style="display: flex;flex-direction: column;align-items: center;">
+      <p>© NolanAI, Inc. 2024 </p>
+      <p>Privacy Policy|Terms of Service|Referral</p>
+      <p>Program|Releases|Help</p>
+    </div>
+    <div style="padding-right: 3rem;">
+      <i class="ri-instagram-line"></i>
+      <i class="ri-youtube-line"></i>
+      <i class="ri-twitter-x-line"></i>
+      <i class="ri-threads-line"></i>
+    </div>
+  </div>
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
