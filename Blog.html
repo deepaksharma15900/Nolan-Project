@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"></script>
+  <title>Document</title>
+</head>
+
+<body>
+  <div id="header">
+    <div>
+      <img style="height: 35rem;width: 100%;object-fit: cover;" src="images/hero-img-landing-main copy.jpeg"
+        class="img-fluid" alt="">
+      <div style="height: 10vh; background-color: transparent ; position: fixed;top: 0;width: 100%;z-index: 1;">
+        <a href="index.html"><img style="height:4.4vh;margin-top: 2vh;margin-left: 3vh;" src="images/hero_logo.png"
+            alt=""></a>
+        <div class="buttonclass">
+          <a href="AboutUs.html"><button class="buttonstyle">About Us</button></a>
+          <a href="pricing.html"><button class="buttonstyle">Pricing</button></a>
+          <a href="ForStudios.html"><button class="buttonstyle">For Studios</button></a>
+          <a href="Features.html"><button class="buttonstyle">Features</button></a>
+
+          <!-- Button trigger modal -->
+          <button type="button" class="buttonstyle " data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Create Script
+          </button>
+
+          <!-- Modal -->
+          <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Create a new script</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <p>Select the format you want to write a script for: </p>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                      <h4>Feature Film</h4>
+                      <p>Begin crafting your feature film screenplay with the assistance of Co-Pilot's power.</p>
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                    <label class="form-check-label" for="flexRadioDefault2">
+                      <h4>Video Short</h4>
+                      <p>Take your video shorts to new heights by utilizing AI to craft your scripts in screenplay
+                        format.</p>
+                    </label>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Next</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a href="Blog.html"><button class="buttonstyle">Blog</button></a>
+          <a href="LogIn.html"><button class="Login">Log in</button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div style="display: flex;flex-direction: column;color: aliceblue;position: absolute;top: 8rem;padding-left: 3rem;">
+    <div>
+      <h1 style="font-size: 6rem;">NolanAI Blog</h1>
+    </div>
+    <div>
+      <h4 style="font-size: 3rem;">Unlocking the secrets of successful screenwriting</h4>
+    </div>
+  </div>
+
+  <div
+    style="display: flex;align-items: center;justify-content: space-evenly ;background-color: black;padding-top: 2rem;">
+    <div style="display: flex;flex-direction: column;height: 10rem;width: 30%;color: aliceblue;">
+      <div><img style="height: 30vh;width: 100%;" src="images/ai-coverage-2.jpeg" alt=""></div>
+      <div>
+        <h5 style="font-size: 1.1rem;margin-top: 0.5rem;">February 29 2024, 02:55</h5>
+      </div>
+      <div>
+        <h1 style="font-size: 1.8rem;padding-top: 0.5rem;">How Producers Harness NolanAI Script Coverage for Success
+        </h1>
+      </div>
+      <div style="padding-top: 0.5rem ;">In the dynamic world of film production, producers play a pivotal role in
+        shaping
+        the success of a project.
+        NolanAI's Automatic Script Coverage emerges as a powerhouse tool specifically tailored to meet the needs of
+        producers at crucial stages of filmmaking. Let's explore three smart ways producers can leverage NolanAI</div>
+      <div style="color: blue;padding-top: 0.5rem;">Read Article</div>
+    </div>
+
+    <div style="display: flex;flex-direction: column;height: 10rem;width: 30%;color: aliceblue;">
+      <div><img style="height: 30vh;width: 100%;" src="images/talented-woman-working-with-japanese-paper_Medium2.jpeg"
+          alt=""></div>
+      <div>
+        <h5 style="font-size: 1.1rem;margin-top: 0.5rem;">February 20 2024, 04:15</h5>
+      </div>
+      <div>
+        <h1 style="font-size: 1.8rem;padding-top: 0.5rem;">Script Coverage: Best Practices for the Big Screen
+        </h1>
+      </div>
+      <div style="padding-top: 0.5rem ;">In the dynamic world of the film industry, where captivating stories come to
+        life on the big screen, script coverage plays a pivotal role in shaping the narratives that captivate audiences.
+        As a seasoned script analyst immersed in the realm of blockbuster hits, I'm thrilled to share insights into the
+        best practices for crafting comprehensive and insightful</div>
+      <div style="color: blue;padding-top: 0.5rem;">Read Article</div>
+    </div>
+
+    <div style="display: flex;flex-direction: column;height: 10rem;width: 30%;color: aliceblue;">
+      <div><img style="height: 30vh;width: 100%;" src="images/Screenshot_2024-02-12_at_8.png" alt=""></div>
+      <div>
+        <h5 style=" font-size: 1.1rem;margin-top: 0.5rem;">February 13 2024, 02:09</h5>
+      </div>
+      <div>
+        <h1 style="font-size: 1.8rem;padding-top: 0.5rem;">Untamed Stories: Indie Filmmaking Unveiled
+        </h1>
+      </div>
+      <div style="padding-top: 0.5rem ;">Independent films, commonly known as indie films, represent a unique space
+        within the cinematic landscape, where unparalleled creativity and passion converge to craft narratives that
+        transcend the boundaries of mainstream storytelling. In contrast to the glitz and glamour of Hollywood's major
+        productions, indie filmmaking stands as a testament to the exploration of uncharted territories with a
+        commitment to authenticity and innovation.</div>
+      <div style="color: blue;padding-top: 0.5rem;">Read Article</div>
+    </div>
+  </div>
+
+  <div
+    style="display: flex;align-items: center;justify-content: space-evenly ;background-color: black;padding-top: 25rem;">
+    <div style="display: flex;flex-direction: column;height: 10rem;width: 30%;color: aliceblue;">
+      <div><img style="height: 30vh;width: 100%;" src="images/Screenshot_2024-01-29_at_11.png" alt=""></div>
+      <div>
+        <h5 style="font-size: 1.1rem;margin-top: 0.5rem;">January 30 2024, 04:37</h5>
+      </div>
+      <div>
+        <h1 style="font-size: 1.8rem;padding-top: 0.5rem;">How to Make A Scene Shorter?!
+        </h1>
+      </div>
+      <div style="padding-top: 0.5rem ;">Making scenes shorter is crucial for maintaining audience engagement. Here are
+        some tips, including a special feature from NolanAI:</div>
+      <div style="color: blue;padding-top: 0.5rem;">Read Article</div>
+    </div>
+
+    <div style="display: flex;flex-direction: column;height: 10rem;width: 30%;color: aliceblue;">
+      <div><img style="height: 30vh;width: 100%;" src="images/Screenshot_2024-01-21_at_5.png" alt=""></div>
+      <div>
+        <h5 style="font-size: 1.1rem;margin-top: 0.5rem;">January 21 2024, 10:01</h5>
+      </div>
+      <div>
+        <h1 style="font-size: 1.8rem;padding-top: 0.5rem;">Free Scripting Power: Celtx, WriterDuet, NolanAI Unleashed
+        </h1>
+      </div>
+      <div style="padding-top: 0.5rem ;">Embarking on the exciting journey of</div>
+      <div style="color: blue;padding-top: 0.5rem;">Read Article</div>
+    </div>
+
+    <div style="display: flex;flex-direction: column;height: 10rem;width: 30%;color: aliceblue;">
+      <div><img style="height: 30vh;width: 100%;" src="images/Screenshot_2024-01-19_at_2.png" alt=""></div>
+      <div>
+        <h5 style="font-size: 1.1rem;margin-top: 0.5rem;">January 19 2024, 07:19</h5>
+      </div>
+      <div>
+        <h1 style="font-size: 1.8rem;padding-top: 0.5rem;">2024 Sundance: A Cinematic Odyssey
+        </h1>
+      </div>
+      <div style="padding-top: 0.5rem ;">The reels have unspooled, and the curtains have risen, marking the grand
+        commencement of the 2024 Sundance Film Festival! With January 18th fading into the rearview, let's dive into the
+        highlights of this extraordinary celebration of independent storytelling.</div>
+      <div style="color: blue;padding-top: 0.5rem;">Read Article</div>
+    </div>
+  </div>
+
+  <div
+    style="display: flex;align-items: center;justify-content: space-evenly ;background-color: black;padding-top: 25rem;">
+    <div style="display: flex;flex-direction: column;height: 10rem;width: 30%;color: aliceblue;">
+      <div><img style="height: 30vh;width: 100%;" src="images/Screenshot_2024-01-09_at_11.png" alt=""></div>
+      <div>
+        <h5 style="font-size: 1.1rem;margin-top: 0.5rem;">January 10 2024, 04:30</h5>
+      </div>
+      <div>
+        <h1 style="font-size: 1.8rem;padding-top: 0.5rem;">Crafting Compelling Conversations: The Art of Movie Dialogues
+        </h1>
+      </div>
+      <div style="padding-top: 0.5rem ;">Engaging dialogue is the heartbeat of a memorable film, transcending the screen
+        to captivate audiences and etch characters into our collective memory. In this blog post, we delve into the
+        intricacies of crafting impactful dialogues, exploring the techniques that make them resonate and highlighting a
+        few iconic examples from epic movies.</div>
+      <div style="color: blue;padding-top: 0.5rem;">Read Article</div>
+    </div>
+
+    <div style="display: flex;flex-direction: column;height: 10rem;width: 30%;color: aliceblue;">
+      <div><img style="height: 30vh;width: 100%;" src="images/Screenshot_2024-01-02_at_10.png" alt=""></div>
+      <div>
+        <h5 style="font-size: 1.1rem;margin-top: 0.5rem;">January 02 2024, 04:49</h5>
+      </div>
+      <div>
+        <h1 style="font-size: 1.8rem;padding-top: 0.5rem;">Unveiling the Most Wanted Movies of 2024!
+        </h1>
+      </div>
+      <div style="padding-top: 0.5rem ;">Despite the numerous challenges Hollywood faced in 2023, it appears that the
+        industry has successfully overcome those obstacles. As we enter 2024, the difficulties of the past year are now
+        in the rearview mirror, paving the way for a renewed sense of excitement. Anticipation is mounting for the
+        upcoming release of exhilarating superhero films, a long-awaited musical adaptation, the return of George Miller
+        to the Mad Max series, the third installment of Avatar, and a plethora of other captivating projects. !</div>
+      <div style="color: blue;padding-top: 0.5rem;">Read Article</div>
+    </div>
+
+    <div style="display: flex;flex-direction: column;height: 10rem;width: 30%;color: aliceblue;">
+      <div><img style="height: 30vh;width: 100%;" src="images/76F13sDe8AljUfchLdR4jz.jpeg" alt=""></div>
+      <div>
+        <h5 style="font-size: 1.1rem;margin-top: 0.5rem;">December 28 2023, 02:19</h5>
+      </div>
+      <div>
+        <h1 style="font-size: 1.8rem;padding-top: 0.5rem;">Leveraging Script Breakdown for Effective Film Scheduling
+        </h1>
+      </div>
+      <div style="padding-top: 0.5rem ;">Film</div>
+      <div style="color: blue;padding-top: 0.5rem;">Read Article</div>
+    </div>
+  </div>
+
+  <div
+    style="display: flex;align-items: center;justify-content: space-evenly ;background-color: black;padding-top: 30rem;">
+    <div style="display: flex;flex-direction: column;height: 10rem;width: 30%;color: aliceblue;">
+      <div><img style="height: 30vh;width: 100%;"
+          src="images/358448_Panorama_shot_of_Chicago_night_and_background_Ince_xl-1024-v1-0.png" alt=""></div>
+      <div>
+        <h5 style="font-size: 1.1rem;margin-top: 0.5rem;">December 22 2023, 12:06</h5>
+      </div>
+      <div>
+        <h1 style="font-size: 1.8rem;padding-top: 0.5rem;">How Movie Trailers are Made: A Behind-the-Scenes Look</h1>
+      </div>
+      <div style="padding-top: 0.5rem ;">Imagine entering a dimly lit cinema, anticipation crackling in the air. The
+        screen flickers to life, not with the film you came to see, but with a mini-masterpiece in its own right: the
+        movie trailer. These two to three minutes of carefully curated scenes, electrifying music, and cryptic whispers
+        hold the power to ignite your curiosity and send you sprinting to the box office.</div>
+      <div style="color: blue;padding-top: 0.5rem;">Read Article</div>
+    </div>
+
+    <div style="display: flex;flex-direction: column;height: 10rem;width: 30%;color: aliceblue;">
+      <div><img style="height: 30vh;width: 100%;"
+          src="images/687221_Film_scheduling_in_pre_production_stage__xl-1024-v1-0.png" alt=""></div>
+      <div>
+        <h5 style="font-size: 1.1rem;margin-top: 0.5rem;">December 20 2023, 01:35</h5>
+      </div>
+      <div>
+        <h1 style="font-size: 1.8rem;padding-top: 0.5rem;">Understanding the Complexity of Film Scheduling
+        </h1>
+      </div>
+      <div style="padding-top: 0.5rem ;">Lights. Camera. Action... Budget overrun! In the world of cinema, few things
+        are as crucial, yet as complex, as film scheduling. It's a meticulous dance between creative vision, logistical
+        constraints, and a bottomless pit of potential expenses. Understanding why</div>
+      <div style="color: blue;padding-top: 0.5rem;">Read Article</div>
+    </div>
+
+    <div style="display: flex;flex-direction: column;height: 10rem;width: 30%;color: aliceblue;">
+      <div><img style="height: 30vh;width: 100%;" src="images/Screenshot_2023-12-14_at_10.png" alt=""></div>
+      <div>
+        <h5 style="font-size: 1.1rem;margin-top: 0.5rem;">December 15 2023, 03:25</h5>
+      </div>
+      <div>
+        <h1 style="font-size: 1.8rem;padding-top: 0.5rem;">The Friends in Leave the World Behind
+        </h1>
+      </div>
+      <div style="padding-top: 0.5rem ;">So, in the Netflix movie "Leave the World Behind" with Julia Roberts, there's
+        this cool subplot about Friends. Picture this: Rose is binge-watching Friends when all of a sudden, the internet
+        goes bonkers with an apocalyptic vibe. Crazy, right? Well, she ends up seeking refuge in her neighbor's doomsday
+        bunker. Meanwhile, bombs are raining down on Manhattan, and an emergency alert spills the beans about rogue
+        armed forces going wild on the White House and big cities.</div>
+      <div style="color: blue;padding-top: 0.5rem;">Read Article</div>
+    </div>
+  </div>
+
+  <div
+    style="display: flex;align-items: center;justify-content: space-evenly ;background-color: black;padding-top: 30rem;">
+    <div style="display: flex;flex-direction: column;height: 10rem;width: 30%;color: aliceblue;">
+      <div><img style="height: 30vh;width: 100%;" src="images/Book_transformation_into_movie__cinematic_.png" alt="">
+      </div>
+      <div>
+        <h5 style="font-size: 1.1rem;margin-top: 0.5rem;">December 15 2023, 02:52</h5>
+      </div>
+      <div>
+        <h1 style="font-size: 1.8rem;padding-top: 0.5rem;">Novel to Screenplay: The Secrets of Storytelling Success</h1>
+      </div>
+      <div style="padding-top: 0.5rem ;">Converting a beloved novel into a captivating screenplay is a thrilling yet
+        daunting task. It's like breathing life into your characters and story in a whole new way, but the transition
+        from prose to visuals demands a unique approach. Fear not, fellow writer, for with the right guidance, you can
+        navigate this exciting journey and bring your literary masterpiece to the silver screen.</div>
+      <div style="color: blue;padding-top: 0.5rem;">Read Article</div>
+    </div>
+
+    <div style="display: flex;flex-direction: column;height: 10rem;width: 30%;color: aliceblue;">
+      <div><img style="height: 30vh;width: 100%;" src="images/b_r_poster.png" alt=""></div>
+      <div>
+        <h5 style="font-size: 1.1rem;margin-top: 0.5rem;">December 12 2023, 12:46</h5>
+      </div>
+      <div>
+        <h1 style="font-size: 1.8rem;padding-top: 0.5rem;">How Not to Write a Screenplay
+        </h1>
+      </div>
+      <div style="padding-top: 0.5rem ;">Even the best writers stumble. Take Akiva Goldsman, a Hollywood heavyweight
+        with an Oscar for Best Adapted Screenplay under his belt. Yet, his career also includes the infamous ".he
+        holidays bring joy, family, and… explosions? It's true, Christmas has become a surprising haven for action
+        movies, offering thrilling narratives amidst the snow and festivities..Let's dive into five iconic action films
+        that take place around Christmas, along with their scripts, to explore how they elevate the genre and spark your
+        own creative fire</div>
+      <div style="color: blue;padding-top: 0.5rem;">Read Article</div>
+    </div>
+
+    <div style="display: flex;flex-direction: column;height: 10rem;width: 30%;color: aliceblue;">
+      <div><img style="height: 30vh;width: 100%;"
+          src="images/515462_Panorama_Shot_of__Action_Movie_Poster_Like_Die_Har_xl-1024-v1-0.png" alt=""></div>
+      <div>
+        <h5 style="font-size: 1.1rem;margin-top: 0.5rem;">December 15 2023, 03:25</h5>
+      </div>
+      <div>
+        <h1 style="font-size: 1.8rem;padding-top: 0.5rem;">The Friends in Leave the World Behind
+        </h1>
+      </div>
+      <div style="padding-top: 0.5rem ;">So, in the Netflix movie "Leave the World Behind" with Julia Roberts, there's
+        this cool subplot about Friends. Picture this: Rose is binge-watching Friends when all of a sudden, the internet
+        goes bonkers with an apocalyptic vibe. Crazy, right? Well, she ends up seeking refuge in her neighbor's doomsday
+        bunker. Meanwhile, bombs are raining down on Manhattan, and an emergency alert spills the beans about rogue
+        armed forces going wild on the White House and big cities.</div>
+      <div style="color: blue;padding-top: 0.5rem;">Read Article</div>
+    </div>
+  </div>
+
+  <div
+    style="display: flex;align-items: center;justify-content: space-evenly ;background-color: black;padding-top: 30rem;">
+    <div style="display: flex;flex-direction: column;height: 10rem;width: 30%;color: aliceblue;">
+      <div><img style="height: 30vh;width: 100%;" src="images/Film_shooting_process_cinematic_panorama.png" alt="">
+      </div>
+      <div>
+        <h5 style="font-size: 1.1rem;margin-top: 0.5rem;">December 15 2023, 02:52</h5>
+      </div>
+      <div>
+        <h1 style="font-size: 1.8rem;padding-top: 0.5rem;">Novel to Screenplay: The Secrets of Storytelling Success</h1>
+      </div>
+      <div style="padding-top: 0.5rem ;">Converting a beloved novel into a captivating screenplay is a thrilling yet
+        daunting task. It's like breathing life into your characters and story in a whole new way, but the transition
+        from prose to visuals demands a unique approach. Fear not, fellow writer, for with the right guidance, you can
+        navigate this exciting journey and bring your literary masterpiece to the silver screen.</div>
+      <div style="color: blue;padding-top: 0.5rem;">Read Article</div>
+    </div>
+
+    <div style="display: flex;flex-direction: column;height: 10rem;width: 30%;color: aliceblue;">
+      <div><img style="height: 30vh;width: 100%;" src="images/casablanca.jpeg" alt=""></div>
+      <div>
+        <h5 style="font-size: 1.1rem;margin-top: 0.5rem;">December 12 2023, 12:46</h5>
+      </div>
+      <div>
+        <h1 style="font-size: 1.8rem;padding-top: 0.5rem;">How Not to Write a Screenplay
+        </h1>
+      </div>
+      <div style="padding-top: 0.5rem ;">Even the best writers stumble. Take Akiva Goldsman, a Hollywood heavyweight
+        with an Oscar for Best Adapted Screenplay under his belt. Yet, his career also includes the infamous ".he
+        holidays bring joy, family, and… explosions? It's true, Christmas has become a surprising haven for action
+        movies, offering thrilling narratives amidst the snow and festivities..Let's dive into five iconic action films
+        that take place around Christmas, along with their scripts, to explore how they elevate the genre and spark your
+        own creative fire</div>
+      <div style="color: blue;padding-top: 0.5rem;">Read Article</div>
+    </div>
+
+    <div style="display: flex;flex-direction: column;height: 10rem;width: 30%;color: aliceblue;">
+      <div><img style="height: 30vh;width: 100%;" src="images/39.jpeg" alt=""></div>
+      <div>
+        <h5 style="font-size: 1.1rem;margin-top: 0.5rem;">December 15 2023, 03:25</h5>
+      </div>
+      <div>
+        <h1 style="font-size: 1.8rem;padding-top: 0.5rem;">The Friends in Leave the World Behind
+        </h1>
+      </div>
+      <div style="padding-top: 0.5rem ;">So, in the Netflix movie "Leave the World Behind" with Julia Roberts, there's
+        this cool subplot about Friends. Picture this: Rose is binge-watching Friends when all of a sudden, the internet
+        goes bonkers with an apocalyptic vibe. Crazy, right? Well, she ends up seeking refuge in her neighbor's doomsday
+        bunker. Meanwhile, bombs are raining down on Manhattan, and an emergency alert spills the beans about rogue
+        armed forces going wild on the White House and big cities.</div>
+      <div style="color: blue;padding-top: 0.5rem;">Read Article</div>
+    </div>
+  </div>
+
+  <div
+    style="display: flex;align-items: center;justify-content: space-evenly ;background-color: black;padding-top: 30rem;">
+    <div style="display: flex;flex-direction: column;height: 10rem;width: 30%;color: aliceblue;">
+      <div><img style="height: 30vh;width: 100%;" src="images/oppenheimer.jpeg" alt="">
+      </div>
+      <div>
+        <h5 style="font-size: 1.1rem;margin-top: 0.5rem;">December 15 2023, 02:52</h5>
+      </div>
+      <div>
+        <h1 style="font-size: 1.8rem;padding-top: 0.5rem;">Oppenheimer script</h1>
+      </div>
+      <div style="padding-top: 0.5rem ;">For fans of the legendary filmmaker Christopher Nolan, the anticipation for his
+        latest cinematic masterpiece, 'Oppenheimer,' has been nothing short of thrilling. And for those still yearning
+        for a deeper dive into Nolan's creative genius, you're in luck.</div>
+      <div style="color: blue;padding-top: 0.5rem;">Read Article</div>
+    </div>
+
+    <div style="display: flex;flex-direction: column;height: 10rem;width: 30%;color: aliceblue;">
+      <div><img style="height: 30vh;width: 100%;"
+          src="images/problem-solving-close-up-view-hand-business-woman-stopping-falling-blocks-table-concept-about-taking-responsibility.jpeg"
+          alt=""></div>
+      <div>
+        <h5 style="font-size: 1.1rem;margin-top: 0.5rem;">November 29 2023, 05:20</h5>
+      </div>
+      <div>
+        <h1 style="font-size: 1.8rem;padding-top: 0.5rem;">Decoding Midpoint Magic in Scriptwriting
+        </h1>
+      </div>
+      <div style="padding-top: 0.5rem ;">Today, we embark on a journey through the labyrinth of scriptwriting,
+        unraveling the enigma that is the Midpoint. Join me as we explore the heart of narrative structure,
+        understanding why the Midpoint is the linchpin that can elevate your screenplay from good to unforgettable.
+      </div>
+      <div style="color: blue;padding-top: 0.5rem;">Read Article</div>
+    </div>
+
+    <div style="display: flex;flex-direction: column;height: 10rem;width: 30%;color: aliceblue;">
+      <div><img style="height: 30vh;width: 100%;"
+          src="images/closeup-shot-old-vintage-typewriter-red-desk-with-paper-side.jpeg" alt=""></div>
+      <div>
+        <h5 style="font-size: 1.1rem;margin-top: 0.5rem;">November 28 2023, 02:21</h5>
+      </div>
+      <div>
+        <h1 style="font-size: 1.8rem;padding-top: 0.5rem;">The Heartbeat of a Strong Opening Scene</h1>
+      </div>
+      <div style="padding-top: 0.5rem ;">Hey there, fellow storytellers and movie lovers! Today, let's chat about
+        something near and dear to our creative hearts: the enchanting world of opening scenes. Whether you're just
+        starting your scriptwriting journey or you're a seasoned film enthusiast, there's something magical about the
+        art of a captivating opening.
+      </div>
+      <div style="color: blue;padding-top: 0.5rem;">Read Article</div>
+    </div>
+  </div>
+
+  <div
+    style="display: flex;align-items: center;justify-content: space-evenly ;background-color: black;padding-top: 30rem;">
+    <div style="display: flex;flex-direction: column;height: 10rem;width: 30%;color: aliceblue;">
+      <div><img style="height: 30vh;width: 100%;"
+          src="images/CalgarArntor_professional_wide-angle_shot_of_a_movie_set_inspir_ce199ec9-a2f0-4e68-ab11-14578fda8615_upscayl_4x_ultrasharp.jpeg"
+          alt="">
+      </div>
+      <div>
+        <h5 style="font-size: 1.1rem;margin-top: 0.5rem;">November 19 2023, 05:27</h5>
+      </div>
+      <div>
+        <h1 style="font-size: 1.8rem;padding-top: 0.5rem;">The Impact of AI on Film Production</h1>
+      </div>
+      <div style="padding-top: 0.5rem ;">In the dynamic landscape of film production, the emergence of artificial
+        intelligence has piqued interest, with NolanAI standing out as a noteworthy example. Despite being a newcomer in
+        the industry, NolanAI sheds light on the potential applications of AI, especially in the face of challenges like
+        recent writers' strikes.</div>
+      <div style="color: blue;padding-top: 0.5rem;">Read Article</div>
+    </div>
+
+    <div style="display: flex;flex-direction: column;height: 10rem;width: 30%;color: aliceblue;">
+      <div><img style="height: 30vh;width: 100%;"
+          src="images/TV___Film_Storyboard_in_Black_and_White_Red_Dark___Serious_Style.png" alt=""></div>
+      <div>
+        <h5 style="font-size: 1.1rem;margin-top: 0.5rem;">November 14 2023, 02:48</h5>
+      </div>
+      <div>
+        <h1 style="font-size: 1.8rem;padding-top: 0.5rem;">The Cinematic Canvas: Importance of Storyboards in Film
+          Production
+        </h1>
+      </div>
+      <div style="padding-top: 0.5rem ;">In the realm of filmmaking, where every frame is a brushstroke on the canvas of
+        storytelling, the significance of storyboards cannot be overstated. As a seasoned professional in the film
+        industry, I've witnessed firsthand the transformative power of storyboards in shaping narratives, streamlining
+        production, and elevating the overall creative process. In this blog, we embark on a journey into the heart of
+        visual storytelling, exploring the usage and importance of storyboards in the world of film.
+      </div>
+      <div style="color: blue;padding-top: 0.5rem;">Read Article</div>
+    </div>
+
+    <div style="display: flex;flex-direction: column;height: 10rem;width: 30%;color: aliceblue;">
+      <div><img style="height: 30vh;width: 100%;" src="images/feedback-word-written-with-chalk-blackboard.jpeg" alt="">
+      </div>
+      <div>
+        <h5 style="font-size: 1.1rem;margin-top: 0.5rem;">November 07 2023, 03:12</h5>
+      </div>
+      <div>
+        <h1 style="font-size: 1.8rem;padding-top: 0.5rem;">Feedback Matters: Enhancing Your Screenwriting Journey</h1>
+      </div>
+      <div style="padding-top: 0.5rem ;">Writing is a deeply personal and often solitary endeavor. When it comes to
+        screenwriting, this creative process is no exception. Every writer puts their heart and soul into crafting a
+        story, developing characters, and creating a world that resonates with an audience. However, screenwriting, like
+        all forms of art, benefits from an external perspective. This is where feedback comes into play. In this blog
+        post, we'll explore the give and take of receiving screenwriting feedback and how it can elevate your craft with
+        the help of NolanAI.
+      </div>
+      <div style="color: blue;padding-top: 0.5rem;">Read Article</div>
+    </div>
+  </div>
+
+  <div
+    style="display: flex;align-items: center;justify-content: space-evenly ;background-color: black;padding-top: 30rem;">
+    <div style="display: flex;flex-direction: column;height: 10rem;width: 30%;color: aliceblue;">
+      <div><img style="height: 30vh;width: 100%;"
+          src="images/young-adult-woman-futuristic-portrait-shines-sensuality-generated-by-ai.jpeg" alt="">
+      </div>
+      <div>
+        <h5 style="font-size: 1.1rem;margin-top: 0.5rem;">September 14 2023, 12:28</h5>
+      </div>
+      <div>
+        <h1 style="font-size: 1.8rem;padding-top: 0.5rem;">AI in Film and TV: A Harmonious Partnership with Human
+          Creativity</h1>
+      </div>
+      <div style="padding-top: 0.5rem ;">In the enchanting world of film and television, a silent revolution is
+        unfolding—one where the realms of human creativity and cutting-edge AI technologies coexist in perfect harmony.
+        While the landscape is evolving with AI's growing influence, it's essential to emphasize that AI is not here to
+        supplant human ingenuity but rather to complement and amplify it.</div>
+      <div style="color: blue;padding-top: 0.5rem;">Read Article</div>
+    </div>
+
+    <div style="display: flex;flex-direction: column;height: 10rem;width: 30%;color: aliceblue;">
+      <div><img style="height: 30vh;width: 100%;" src="images/medium-shot-woman-influencer-marketing-concept.jpeg"
+          alt=""></div>
+      <div>
+        <h5 style="font-size: 1.1rem;margin-top: 0.5rem;">September 05 2023, 02:47</h5>
+      </div>
+      <div>
+        <h1 style="font-size: 1.8rem;padding-top: 0.5rem;">NolanAI: TikTok & Instagram ScriptCrafters
+          Production
+        </h1>
+      </div>
+      <div style="padding-top: 0.5rem ;">In today's fast-paced world of social media, capturing your audience's
+        attention within seconds is a formidable challenge. Whether you're an aspiring influencer, a business promoting
+        products, or simply someone with a story to tell, your script is your secret weapon. Now, imagine having an
+        AI-powered tool that not only understands the nuances of TikTok and Instagram but also tailors your script to
+        fit their unique requirements.
+      </div>
+      <div style="color: blue;padding-top: 0.5rem;">Read Article</div>
+    </div>
+
+    <div style="display: flex;flex-direction: column;height: 10rem;width: 30%;color: aliceblue;">
+      <div><img style="height: 30vh;width: 100%;" src="images/barbie-movie-theories-64a8394e90687.png" alt="">
+      </div>
+      <div>
+        <h5 style="font-size: 1.1rem;margin-top: 0.5rem;">August 30 2023, 02:30</h5>
+      </div>
+      <div>
+        <h1 style="font-size: 1.8rem;padding-top: 0.5rem;">🎬 Diving into the Barbie Movie: Scriptwriting Enchantment!
+          🎬</h1>
+      </div>
+      <div style="padding-top: 0.5rem ;">Lights, camera, Barbie!
+      </div>
+      <div style="color: blue;padding-top: 0.5rem;">Read Article</div>
+    </div>
+  </div>
+
+  <div
+    style="display: flex;align-items: center;justify-content: space-evenly ;background-color: black;padding-top: 30rem;">
+    <div style="display: flex;flex-direction: column;height: 10rem;width: 30%;color: aliceblue;">
+      <div><img style="height: 30vh;width: 100%;" src="images/Screen_Shot_2023-07-01_at_11.png" alt="">
+      </div>
+      <div>
+        <h5 style="font-size: 1.1rem;margin-top: 0.5rem;">July 01 2023, 02:51</h5>
+      </div>
+      <div>
+        <h1 style="font-size: 1.8rem;padding-top: 0.5rem;">Celebrating the Creative Brilliance: Women Scriptwriters
+          Shaping the Narrative</h1>
+      </div>
+      <div style="padding-top: 0.5rem ;">In the world of storytelling, women scriptwriters have long been an integral
+        part of shaping the narrative landscape. Their immense talent, creativity, and unique perspectives have
+        contributed to some of the most captivating and thought-provoking stories in film, television, and theater.
+        Today, we celebrate the remarkable achievements of women scriptwriters who have broken barriers, challenged
+        stereotypes, and enriched our cultural tapestry with their exceptional work.</div>
+      <div style="color: blue;padding-top: 0.5rem;">Read Article</div>
+    </div>
+
+    <div style="display: flex;flex-direction: column;height: 10rem;width: 30%;color: aliceblue;">
+      <div><img style="height: 30vh;width: 100%;" src="images/how-to-use-beat-sheet.png" alt=""></div>
+      <div>
+        <h5 style="font-size: 1.1rem;margin-top: 0.5rem;">June 22 2023, 04:15</h5>
+      </div>
+      <div>
+        <h1 style="font-size: 1.8rem;padding-top: 0.5rem;">The Scene Beat Sheet: Streamlining Screenplay Writing with
+          NolanAI
+        </h1>
+      </div>
+      <div style="padding-top: 0.5rem ;">Screenplay writing is a meticulous craft that requires careful planning and
+        organization to bring stories to life on the silver screen. One essential tool used by screenwriters is the
+        scene beat sheet. A scene beat sheet is a structured outline that breaks down a screenplay into its individual
+        beats or moments, providing a clear roadmap for the narrative. With the advent of advanced AI technologies like
+        NolanAI, the process of creating a scene beat sheet and translating it into an initial draft has become even
+        more efficient and seamless.
+      </div>
+      <div style="color: blue;padding-top: 0.5rem;">Read Article</div>
+    </div>
+
+    <div style="display: flex;flex-direction: column;height: 10rem;width: 30%;color: aliceblue;">
+      <div><img style="height: 30vh;width: 100%;" src="images/Screen_Shot_2023-06-16_at_11.png" alt="">
+      </div>
+      <div>
+        <h5 style="font-size: 1.1rem;margin-top: 0.5rem;">June 16 2023, 03:29</h5>
+      </div>
+      <div>
+        <h1 style="font-size: 1.8rem;padding-top: 0.5rem;">Enhancing the Screenwriting Experience: Unveiling Exciting
+          New Features in NolanAI</h1>
+      </div>
+      <div style="padding-top: 0.5rem ;">Check out our recent updates that have elevated the scriptwriting experience
+        for you.
+      </div>
+      <div style="color: blue;padding-top: 0.5rem;">Read Article</div>
+    </div>
+  </div>
+
+  <div
+    style="display: flex;align-items: center;justify-content: space-evenly ;background-color: black;padding-top: 30rem;">
+    <div style="display: flex;flex-direction: column;height: 10rem;width: 30%;color: aliceblue;">
+      <div><img style="height: 30vh;width: 100%;" src="images/los-angeles-downtown-buildings-night.jpeg" alt="">
+      </div>
+      <div>
+        <h5 style="font-size: 1.1rem;margin-top: 0.5rem;">May 05 2023, 10:39</h5>
+      </div>
+      <div>
+        <h1 style="font-size: 1.8rem;padding-top: 0.5rem;">Mastering Hollywood-style Scriptwriting with Scriptfella
+          Program</h1>
+      </div>
+      <div style="padding-top: 0.5rem ;">Attention all aspiring screenwriters! Are you ready to take your storytelling
+        skills to the next level and make your script Hollywood-worthy? Join</div>
+      <div style="color: blue;padding-top: 0.5rem;">Read Article</div>
+    </div>
+
+    <div style="display: flex;flex-direction: column;height: 10rem;width: 30%;color: aliceblue;">
+      <div><img style="height: 30vh;width: 100%;" src="images/20850149_6331668.jpeg" alt=""></div>
+      <div>
+        <h5 style="font-size: 1.1rem;margin-top: 0.5rem;">May 01 2023, 12:56</h5>
+      </div>
+      <div>
+        <h1 style="font-size: 1.8rem;padding-top: 0.5rem;">Boost Your Script Writing Skills with These Top 3 Podcasts
+        </h1>
+      </div>
+      <div style="padding-top: 0.5rem ;">If you're a movie script writer looking for tips and inspiration to improve
+        your craft, you're in luck! We've compiled a list of the top 3 podcasts that offer expert advice and unique
+        insights into the screenwriting industry. Read on to learn more and don't forget to subscribe to these valuable
+        resources!
+      </div>
+      <div style="color: blue;padding-top: 0.5rem;">Read Article</div>
+    </div>
+
+    <div style="display: flex;flex-direction: column;height: 10rem;width: 30%;color: aliceblue;">
+      <div><img style="height: 30vh;width: 100%;"
+          src="images/CalgarArntor_professional_wide-angle_shot_of_a_movie_set_inspir_ce199ec9-a2f0-4e68-ab11-14578fda8615_upscayl_4x_ultrasharp (1).jpeg"
+          alt="">
+      </div>
+      <div>
+        <h5 style="font-size: 1.1rem;margin-top: 0.5rem;">April 23 2023, 09:21</h5>
+      </div>
+      <div>
+        <h1 style="font-size: 1.8rem;padding-top: 0.5rem;">Democratizing Screenwriting</h1>
+      </div>
+      <div style="padding-top: 0.5rem ;">The art of screenwriting has long been considered an elusive and exclusive
+        craft, reserved for a select few who have mastered the art of storytelling and possess the necessary connections
+        to break into the film industry. However, with the emergence of new technologies such as artificial
+        intelligence, the world of screenwriting is about to undergo a massive democratization.
+      </div>
+      <div style="color: blue;padding-top: 0.5rem;">Read Article</div>
+    </div>
+  </div>
+
+  <div
+    style="display: flex;align-items: center;justify-content: space-evenly ;background-color: black;padding-top: 30rem;">
+    <div style="display: flex;flex-direction: column;height: 10rem;width: 30%;color: aliceblue;">
+      <div><img style="height: 30vh;width: 100%;" src="images/copilot-small.jpeg" alt="">
+      </div>
+      <div>
+        <h5 style="font-size: 1.1rem;margin-top: 0.5rem;">March 25 2023, 12:08</h5>
+      </div>
+      <div>
+        <h1 style="font-size: 1.8rem;padding-top: 0.5rem;">AI Copilot for Scriptwriters</h1>
+      </div>
+      <div style="padding-top: 0.5rem ;">Artificial intelligence (AI) has already transformed many industries, and the
+        entertainment industry is no exception. One area where AI is poised to make a significant impact is in
+        scriptwriting. With the development of AI-driven copilot software like "Nolan Copilot", scriptwriters can now
+        take advantage of the many benefits that this technology offers."Nolan Copilot" can be incredibly useful for
+        scriptwriters in a number of ways.</div>
+      <div style="color: blue;padding-top: 0.5rem;">Read Article</div>
+    </div>
+
+    <div style="display: flex;flex-direction: column;height: 10rem;width: 30%;color: aliceblue;">
+      <div><img style="height: 30vh;width: 100%;" src="images/action-movie.jpeg" alt=""></div>
+      <div>
+        <h5 style="font-size: 1.1rem;margin-top: 0.5rem;">March 24 2023, 02:056</h5>
+      </div>
+      <div>
+        <h1 style="font-size: 1.8rem;padding-top: 0.5rem;">Writing an Unforgettable Action Screenplay: What You Need to
+          Know
+        </h1>
+      </div>
+      <div style="padding-top: 0.5rem ;">Writing an action screenplay can be a thrilling and exciting experience.
+        However, it can also be a challenge to create a story that is both visually stunning and emotionally engaging.
+        Here are some tips to help you get started:
+      </div>
+      <div style="color: blue;padding-top: 0.5rem;">Read Article</div>
+    </div>
+
+    <div style="display: flex;flex-direction: column;height: 10rem;width: 30%;color: aliceblue;">
+      <div><img style="height: 30vh;width: 100%;" src="images/sci-fi-1.jpeg" alt="">
+      </div>
+      <div>
+        <h5 style="font-size: 1.1rem;margin-top: 0.5rem;">March 24 2023, 02:02</h5>
+      </div>
+      <div>
+        <h1 style="font-size: 1.8rem;padding-top: 0.5rem;">Exploring New Worlds: How to Write a Sci-Fi Screenplay</h1>
+      </div>
+      <div style="padding-top: 0.5rem ;">Writing a sci-fi screenplay can be an exciting and challenging experience.
+        Science fiction allows for endless possibilities and creativity, but it also requires a lot of thought and
+        planning. Here are some tips to help you get started:
+      </div>
+      <div style="color: blue;padding-top: 0.5rem;">Read Article</div>
+    </div>
+  </div>
+
+  <div
+    style="display: flex;align-items: center;justify-content: space-evenly ;background-color: black;padding-top: 30rem;">
+    <div style="display: flex;flex-direction: column;height: 10rem;width: 30%;color: aliceblue;">
+      <div><img style="height: 30vh;width: 100%;" src="images/action-movie.jpeg" alt="">
+      </div>
+      <div>
+        <h5 style="font-size: 1.1rem;margin-top: 0.5rem;">March 24 2023, 01:59</h5>
+      </div>
+      <div>
+        <h1 style="font-size: 1.8rem;padding-top: 0.5rem;">Writing for Impact: How to Write a Dramatic Screenplay That
+          Sticks with Your Audience</h1>
+      </div>
+      <div style="padding-top: 0.5rem ;">Writing a dramatic screenplay can be a daunting task, especially if you're new
+        to the craft. But fear not! With a little bit of guidance and a lot of hard work, anyone can learn how to write
+        a great dramatic screenplay.</div>
+      <div style="color: blue;padding-top: 0.5rem;">Read Article</div>
+    </div>
+
+    <div style="display: flex;flex-direction: column;height: 10rem;width: 30%;color: aliceblue;">
+      <div><img style="height: 30vh;width: 100%;" src="images/screenplay_resize.jpeg" alt=""></div>
+      <div>
+        <h5 style="font-size: 1.1rem;margin-top: 0.5rem;">March 24 2023, 01:42</h5>
+      </div>
+      <div>
+        <h1 style="font-size: 1.8rem;padding-top: 0.5rem;">How to Become a Better Screenwriter?</h1>
+      </div>
+      <div style="padding-top: 0.5rem ;">Screenwriting is a craft that requires a combination of innate talent and
+        learned skills. While some may be born with an intuitive sense for storytelling and dialogue, there are many
+        techniques and strategies that can be learned to improve one's screenwriting abilities.
+      </div>
+      <div style="color: blue;padding-top: 0.5rem;">Read Article</div>
+    </div>
+
+    <div style="display: flex;flex-direction: column;height: 10rem;width: 30%;color: aliceblue;">
+      <div><img style="height: 30vh;width: 100%;" src="images/disaster.jpeg" alt="">
+      </div>
+      <div>
+        <h5 style="font-size: 1.1rem;margin-top: 0.5rem;">March 23 2023, 01:36</h5>
+      </div>
+      <div>
+        <h1 style="font-size: 1.8rem;padding-top: 0.5rem;">The Top 10 Mistakes New Screenwriters Make (And How to Avoid
+          Them)</h1>
+      </div>
+      <div style="padding-top: 0.5rem ;">If you're a new screenwriter, it's important to be aware of the common mistakes
+        that can hinder your success. By avoiding these pitfalls, you'll be better equipped to create compelling stories
+        that captivate audiences. Here are the top 10 mistakes new screenwriters make, and how to avoid them.
+      </div>
+      <div style="color: blue;padding-top: 0.5rem;">Read Article</div>
+    </div>
+  </div>
+
+  <div
+    style="background-color: black;display: flex;align-items: center;justify-content: space-between;padding-top: 25rem;color: aliceblue;">
+    <img style="height: 2rem;padding-left: 3rem;" src="images/hero_logo.png" alt="">
+    <div style="display: flex;flex-direction: column;align-items: center;">
+      <p>© NolanAI, Inc. 2024 </p>
+      <p>Privacy Policy|Terms of Service|Referral</p>
+      <p>Program|Releases|Help</p>
+    </div>
+    <div style="padding-right: 3rem;">
+      <i class="ri-instagram-line"></i>
+      <i class="ri-youtube-line"></i>
+      <i class="ri-twitter-x-line"></i>
+      <i class="ri-threads-line"></i>
+    </div>
+  </div>
+</body>
+
+</html>
